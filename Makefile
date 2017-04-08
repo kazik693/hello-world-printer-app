@@ -12,4 +12,4 @@ test:
 	PYTHONPATH=. py.test --verbose -s
 
 docker_build:
-	docker build -t hello-wold-printer
+	docker build -t hello-wold-printer .
