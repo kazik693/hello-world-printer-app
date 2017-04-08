@@ -16,6 +16,6 @@ docker_build:
 
 docker_run: docker_build
 	docker run \
-		--name hello-wold-printer-dev \
+		--name hello-world-printer-dev \
 			-p 5000:5000 \
-			-d hello-wold-printer	
+			-d hello-wold-printer
