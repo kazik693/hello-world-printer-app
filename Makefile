@@ -13,3 +13,9 @@ test:
 
 docker_build:
 	docker build -t hello-wold-printer .
+
+docker_run: docker_build
+	docker run \
+		--name hello-wold-printer-dev \
+			-p 5000:5000 \
+			-d hello-wold-printer	
