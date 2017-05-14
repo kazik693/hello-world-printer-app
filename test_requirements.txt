@@ -1,2 +1,1 @@
-mock
-pytest
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="3" time="0.913"><testcase classname="test.test_formater.TestFormater" file="test/test_formater.py" line="5" name="test_plain_lowercase" time="0.00162410736084"></testcase><testcase classname="test.test_views.FlaskrTestCase" file="test/test_views.py" line="14" name="test_msg_with_output" time="0.162853956223"></testcase><testcase classname="test.test_views.FlaskrTestCase" file="test/test_views.py" line="10" name="test_outputs" time="0.00659489631653"></testcase></testsuite>
